@@ -1,0 +1,24 @@
+application: upload-app
+version: 1
+runtime: php
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /js
+  static_dir: js
+
+- url: /
+  script: main.php
+  
+- url: /SendQueue
+  script: SendQueue.php
+
+- url: /gcsprocess
+  script: gcsprocess.php
+
+ 
