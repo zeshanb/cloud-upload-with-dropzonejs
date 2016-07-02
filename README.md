@@ -8,7 +8,7 @@ Upload files to Google Cloud Storage via this simple App Engine PHP Application.
     <pre>
         application: your-project-id
     </pre>
-4. In Google cloud console browse to your project from left menu and in storage section create bucket named “upload-app”
+4. In Google cloud console browse to your project from left menu and in storage section create bucket with desired name and enter in main.php
             <b>NOTE: in main.php DropzoneOptions.paramName = "unique-bucket-name-required-here"</b>
 5. Setup App Engine PHP SDK: https://developers.google.com/appengine/downloads#Google_App_Engine_SDK_for_PHP
 6. From Google App Engine Launcer click File -> Add Existing Application
