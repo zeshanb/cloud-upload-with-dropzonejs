@@ -59,7 +59,7 @@
 	<div id="notice" style="font-color:#000;font-size:40px"></div>
 	<form id="ADropZone" class="dropzone" method="post" target="_self" enctype="multipart/form-data">
 	  <div class="fallback">
-		<input type="hidden" name="do-upload" value="yes">
+		<input type="hidden" name="do-upload" value="yes" />
 	    	<input name="uploaded_files" type="file" />
 	  </div>
 
